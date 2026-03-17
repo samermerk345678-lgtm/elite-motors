@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://elitemotors.com/sitemap.xml
+
+host: https://elitemotors.com
