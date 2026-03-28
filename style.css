@@ -329,4 +329,44 @@ box-shadow:0 15px 40px rgba(0,0,0,0.5);
 
 
 
-  }
+@media (min-width:1024px){
+
+.sobre-container{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:50px;
+  max-width:1200px;
+  margin:auto;
+}
+
+.sobre-texto{
+  flex:1;
+}
+
+.sobre-texto h2{
+  font-size:32px;
+  margin-bottom:20px;
+}
+
+.sobre-texto p{
+  margin-bottom:15px;
+  color:#ccc;
+  line-height:1.6;
+}
+
+.sobre-img{
+  flex:1;
+  display:flex;
+  justify-content:center;
+}
+
+.sobre-img img{
+  width:100%;
+  max-width:500px; /* 👈 controla o tamanho */
+  height:auto;
+  border-radius:12px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.5);
+}
+
+}
