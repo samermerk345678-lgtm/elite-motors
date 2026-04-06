@@ -403,7 +403,6 @@ box-shadow:0 15px 40px rgba(0,0,0,0.5);
 
 }
 
-
 @media (min-width:1024px){
   
 /reset/
@@ -723,4 +722,6 @@ footer{
   box-shadow:0 15px 40px rgba(0,0,0,0.5);
   margin:40px auto;
   display:block;
+}
+
 }
